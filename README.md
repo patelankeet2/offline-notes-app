@@ -40,3 +40,8 @@ npm run preview    # serves the build on http://localhost:4173
 ```
 
 To test offline mode, open the preview in Chrome or Edge, press F12, go to the Network tab, choose **Offline** and reload the page.
+
+## Notes
+
+* The service worker is only registered in the production build, so always test offline mode with `npm run build` and `npm run preview`.
+* Notes are stored per browser and per address, so notes added on port 5173 (dev) will not show on port 4173 (preview).
