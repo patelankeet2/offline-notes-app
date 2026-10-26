@@ -1,0 +1,8 @@
+/* Global page styles */
+body {
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #0f172a;
+  background: #ffffff;
+}

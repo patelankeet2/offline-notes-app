@@ -1,0 +1,79 @@
+/* Layout for the main page */
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 16px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+/* Online / offline badge */
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status.online {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.offline {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Input box and Add button */
+.note-form {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0 8px;
+}
+
+.note-form input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+}
+
+.note-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #1e293b;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.note-form button:hover {
+  background: #334155;
+}
+
+/* Messages */
+.error {
+  color: #b91c1c;
+}
+
+.empty {
+  color: #64748b;
+}
+
+/* Notes list */
+.note-list {
+  margin-top: 24px;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
